@@ -17,7 +17,9 @@ vector_store/
 *.index
 
 # Large/local documents
-data/documents/
+data/documents/*
+!data/documents/.gitkeep
+data/processed/
 
 # Model files
 *.bin
